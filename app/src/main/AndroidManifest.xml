@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kelvin.holidaydestination">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".custom_list" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".FetchDataOne" />
+        <activity android:name=".GridView" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MasaiGrid" />
+        <activity android:name=".MombasaGrid" />
+        <activity android:name=".Mombasa" />
+        <activity android:name=".TsavoGrid" />
+        <activity android:name=".LakeVictoria" />
+        <activity android:name=".MountGrid" />
+        <activity android:name=".NanyukiGrid" />
+        <activity android:name=".SimTool" />
+        <activity android:name=".Phone" />
+        <activity android:name=".Share" />
+        <activity android:name=".Send"></activity>
+    </application>
+
+</manifest>
